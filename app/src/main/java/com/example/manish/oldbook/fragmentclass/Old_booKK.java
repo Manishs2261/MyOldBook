@@ -63,11 +63,11 @@ public class Old_booKK extends Fragment implements OldBook_Modal_interface{
 
         recyleview_oldbookk.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        modelClassOldBooks.add(new ModelClassOldBook(R.drawable.aa,"DATA STRUCTURES","Sartaj sahni","22/06/2022","2th","₹150","₹700","Bilaspur","Free Deliver on monday "));
+        modelClassOldBooks.add(new ModelClassOldBook(R.drawable.datas,"DATA STRUCTURES","Sartaj sahni","22/06/2022","2th","₹150","₹700","Bilaspur","Free Deliver on monday "));
         modelClassOldBooks.add(new ModelClassOldBook(R.drawable.bbb,"MCA SOLVED PAPERS","AMIT AGRAVAL","22/04/2023","1th","₹160","₹400","Raipur","Free Deliver on monday "));
         modelClassOldBooks.add(new ModelClassOldBook(R.drawable.cc,"11TH MATHEMATICS","RD SHRAME","22/0=12/2023","1th","₹200","₹600","Bilaspur","Free Deliver on monday "));
         modelClassOldBooks.add(new ModelClassOldBook(R.drawable.dd,"NDA SOLVED PAERS","A.K MURTI","22/04/2023","3th","₹50","₹150","Bhilai","Free Deliver on monday "));
-        modelClassOldBooks.add(new ModelClassOldBook(R.drawable.ee,"Think AND GOROW RICH","Nepoliya mil","22/04/2023","1th","₹100","₹400","Durg","Free Deliver on monday "));
+        modelClassOldBooks.add(new ModelClassOldBook(R.drawable.aa,"Think AND GOROW RICH","Nepoliya mil","22/04/2023","1th","₹100","₹400","Durg","Free Deliver on monday "));
         modelClassOldBooks.add(new ModelClassOldBook(R.drawable.ff,"COMPLETE MATHEMATICS","LUCENT'S","22/04/2023","1th","₹120","₹380","Bilaspur","Free Deliver on monday "));
         modelClassOldBooks.add(new ModelClassOldBook(R.drawable.jj,"CG HISTRY","IAS ACADEMY","22/04/2023","1th","₹40","₹200","Bilaspur","Free Deliver on monday "));
         modelClassOldBooks.add(new ModelClassOldBook(R.drawable.kk,"CHHATTISGARH GENERAL KNOWLODGE","IAS ACADEMY","22/04/2023","1th","₹200","₹400","Raipur","Free Deliver on monday "));
