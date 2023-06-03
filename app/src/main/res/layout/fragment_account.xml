@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:forceHasOverlappingRendering="false"
+    android:id="@+id/accountFramelayout"
+    tools:context=".Menuu.Account">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+          <TextView
+              android:id="@+id/textView6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="36dp"
+
+              android:text="Register"
+              android:textSize="40sp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+          <LinearLayout
+              android:layout_width="409dp"
+              android:layout_height="636dp"
+              android:layout_marginStart="1dp"
+              android:layout_marginTop="120dp"
+              android:layout_marginEnd="1dp"
+              android:layout_marginBottom="1dp"
+              android:forceHasOverlappingRendering="false"
+              android:orientation="vertical"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent">
+
+
+              <EditText
+                  android:id="@+id/book_PersonName"
+                  android:layout_width="345dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="24dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="24dp"
+                  android:background="@drawable/profil_corner"
+                  android:drawableLeft="@drawable/baseline_person_24"
+                  android:drawablePadding="10dp"
+                  android:ems="10"
+                  android:forceHasOverlappingRendering="false"
+                  android:hint="Enter Name "
+                  android:inputType="textPersonName"
+                  android:paddingLeft="20dp"
+                  android:paddingTop="13dp"
+                  android:paddingRight="20dp"
+                  android:paddingBottom="13dp" />
+
+              <EditText
+                  android:id="@+id/editTextTextPersonName"
+                  android:layout_width="345dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="24dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginEnd="24dp"
+                  android:background="@drawable/profil_corner"
+                  android:drawableLeft="@drawable/baseline_phone_iphone_24"
+                  android:drawablePadding="10dp"
+                  android:ems="10"
+                  android:forceHasOverlappingRendering="false"
+                  android:hint="Enter phone number "
+                  android:inputType="textPersonName"
+                  android:paddingLeft="20dp"
+                  android:paddingTop="13dp"
+                  android:paddingRight="20dp"
+                  android:paddingBottom="13dp" />
+
+              <EditText
+                  android:id="@+id/book_email"
+                  android:layout_width="345dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="24dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginEnd="24dp"
+                  android:background="@drawable/profil_corner"
+                  android:drawableLeft="@drawable/baseline_email_24"
+                  android:drawablePadding="10dp"
+                  android:ems="10"
+                  android:forceHasOverlappingRendering="false"
+                  android:hint="Enter Email id  "
+                  android:inputType="textPersonName"
+                  android:paddingLeft="20dp"
+                  android:paddingTop="13dp"
+                  android:paddingRight="20dp"
+                  android:paddingBottom="13dp" />
+
+
+              <EditText
+                  android:id="@+id/book_pass"
+                  android:layout_width="345dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="24dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginEnd="24dp"
+                  android:background="@drawable/profil_corner"
+                  android:drawableLeft="@drawable/baseline_security_24"
+                  android:drawablePadding="10dp"
+                  android:ems="10"
+                  android:hint="Enter password "
+                  android:inputType="textPersonName"
+                  android:paddingLeft="20dp"
+                  android:paddingTop="13dp"
+                  android:paddingRight="20dp"
+                  android:paddingBottom="13dp" />
+
+              <EditText
+                  android:id="@+id/book_city"
+                  android:layout_width="345dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="24dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginEnd="24dp"
+                  android:background="@drawable/profil_corner"
+                  android:drawableLeft="@drawable/baseline_location_city_24"
+                  android:drawablePadding="10dp"
+                  android:ems="10"
+                  android:hint="Enter City Name "
+                  android:inputType="textPersonName"
+                  android:paddingLeft="20dp"
+                  android:paddingTop="13dp"
+                  android:paddingRight="20dp"
+                  android:paddingBottom="13dp" />
+
+
+              <RadioGroup
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+
+                  <RadioButton
+                      android:id="@+id/Book_male"
+                      android:layout_width="match_parent"
+                      android:layout_height="48dp"
+                      android:layout_marginStart="24dp"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginEnd="24dp"
+                      android:checked="false"
+                      android:text="Male"
+                      android:textSize="18sp" />
+
+                  <RadioButton
+                      android:id="@+id/Book_female"
+                      android:layout_width="match_parent"
+                      android:layout_height="48dp"
+
+                      android:layout_marginStart="24dp"
+                      android:layout_marginEnd="24dp"
+                      android:checked="false"
+                      android:text="Female"
+                      android:textSize="18sp" />
+
+
+              </RadioGroup>
+
+
+              <TextView
+                  android:id="@+id/reg_us_button"
+                  android:layout_width="145dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginStart="24dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginEnd="24dp"
+                  android:background="@drawable/profil_corner"
+                  android:backgroundTint="#5AA3E3"
+                  android:forceHasOverlappingRendering="false"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:text="Save"
+                  android:textColor="@color/black"
+                  android:textSize="20sp" />
+
+          </LinearLayout>
+
+
+
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+  </FrameLayout>
+
+
+
+</ScrollView>

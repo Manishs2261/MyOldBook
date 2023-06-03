@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/hhome"/>
+
+    <item android:title="Old"
+        android:icon="@drawable/menu"
+        android:id="@+id/old_book"
+        />
+    <item android:title="New"
+        android:icon="@drawable/book_new"
+        android:id="@+id/new_book"/>
+
+    <item
+        android:title="chat"
+        android:icon="@drawable/chat"
+        android:id="@+id/chat"/>
+    <item
+        android:title="Menu"
+        android:icon="@drawable/menu_barr"
+        android:id="@+id/menu"/>
+
+
+</menu>
